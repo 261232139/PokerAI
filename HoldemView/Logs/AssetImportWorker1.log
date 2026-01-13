@@ -1,0 +1,2018 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f2c1 (92e6e6be66dc) revision 9627366'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 32533 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2022.3.62f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/1WorkSpace/MyTest/HoldemView
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62564
+Successfully changed project path to: D:/1WorkSpace/MyTest/HoldemView
+D:/1WorkSpace/MyTest/HoldemView
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2576]  Target information:
+
+Player connection [2576]  * "[IP] 192.168.25.13 [Port] 0 [Flags] 2 [Guid] 2889761555 [EditorId] 2889761555 [Version] 1048832 [Id] WindowsEditor(7,PC-ZhuaC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 9.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2c1 (92e6e6be66dc)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/1WorkSpace/MyTest/HoldemView/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 750 (ID=0x4c8a)
+    Vendor:   Intel
+    VRAM:     16266 MB
+    Driver:   30.0.101.1191
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.62f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006910 seconds.
+- Loaded All Assemblies, in  0.267 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 275 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (346ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.487 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1074ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.7 KB). Loaded Objects now: 4602.
+Memory consumption went from 142.6 MB to 142.3 MB.
+Total: 2.425900 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 1.989600 ms  DeleteObjects: 0.147900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/BuildMergeTabParameters.cs: 2c923f29302a39560b4301c3fd163a7b -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 8a20aca125f6d4b837670edb6e36bc05 -> 82bff1d960538992d4e618d909869d2e
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
+  custom:scripting/monoscript/fileName/DrawStaticElement.cs: 6cbd346d4a1be2ee84c9ebe55a7f9f79 -> 5765d84d60602f16f5577bf0b7fc6b96
+  custom:scripting/monoscript/fileName/MoveDeleteMenu.cs: f1a7b8a8be76c035d934c51863f3b934 -> c4ad4528e772c33a6167006886a8d1da
+  custom:scripting/monoscript/fileName/DialogWithCheckBox.cs: 738e3e0af97e826e16805dda77e5f009 -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: de3aab0283a2b4a1d4d64145b14132d5 -> 3a6cb8c2e3ffbb5a9052e322ee5bf411
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: d9394655856a9fc1a0b280bc997bac16 -> 74a230000ff2fd58c5a60ab4258207dc
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
+  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: efd70108e1f6ff61ed2723220486adfc -> fd14db176fff061715c8ec88ced1902f
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: c429477092287209232592c8cde1a615 -> 9eb29fda08033b4f847247136c412db6
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
+  custom:scripting/monoscript/fileName/DownloadPlasticExeDialog.cs: 2dd40c53d0303d041a27a44a95c331cb -> 093cfe0607c2346a88cdfdfe1435614f
+  custom:scripting/monoscript/fileName/GetOperationDelegate.cs: e719058321e4f2be94be212e42f097c8 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 561ad0f702e1db14300a4a5f810051f9 -> 9a6ef2277212bf26d647c7f12f946287
+  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: b77d9918f02a8eac64394aaf99fa4b28 -> e4e3c9b4bc511687802b504b71016540
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
+  custom:scripting/monoscript/fileName/SaveAssets.cs: e472a52843752df7d7ad4ca6b2c8da98 -> b56abea3d51c742ac29e4aec958afad6
+  custom:scripting/monoscript/fileName/MergeViewMenu.cs: 93bc40369a2f104c249cef1d685ad358 -> c1676e16bdcf215f6595ea9de7a1fc33
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
+  custom:scripting/monoscript/fileName/MergeSelection.cs: 6deb9bc55c10a7ac7c9f905a7b92dbe8 -> 630eecd27cae3311e65e09d9c63da8b7
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: f134606300316994850c28a68d0cb5a3 -> 
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 5e3725e03dc21c716034553589a67eae -> e99b3f34c5cd3eb73ec19439af1f7f80
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
+  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 5f96afa82d3e2a8078206b7f6d3b0752 -> 13196979a03411533716f6775c9a624b
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
+  custom:scripting/monoscript/fileName/DivergentMoveMenu.cs: 5b146ed65a6a030ab7d86a0d711244f7 -> 98d76b5791494212a0c25aa6a4af7288
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 04a46044def089f0abcdafdd281e3646 -> 
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: c62567a3d71fd74636bc783de5162474 -> 
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
+  custom:scripting/monoscript/fileName/UnityCloudProjectLinkMonitor.cs: a6d5b729fcd63f578363f7929a986e8b -> 86b74508945daf368996ea82904ac8da
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
+  custom:scripting/monoscript/fileName/NotificationBar.cs: d1a4cf5e8103d80fd25347275f906aa8 -> 50f1a85fa18d94338418def78dcd8543
+  custom:scripting/monoscript/fileName/EmptyCommentDialog.cs: c9c28ff22d24598d7e4856f434bb1b92 -> 99cc06133e502eab7998108e26fd5614
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
+  custom:scripting/monoscript/fileName/ProcessHubCommand.cs: 30630f626164e285c361aa64e681100e -> 8ab0fc63fa4d9d749198dd61b09d7e37
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
+  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
+  custom:scripting/monoscript/fileName/UnityStyles.cs: 9cb60b3dfb2aa9ad7fb7f3438dc23bed -> a77bf4c43409620cb9527bf40c7b31b2
+  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
+  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
+  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: a3111a345c6451ee64cd16f1989c2313 -> e5c89c05c87517babb3730e87196a494
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
+  custom:scripting/monoscript/fileName/AssetCopyPathOperation.cs: 571ede78b6298606a236918df9df62d5 -> 633a9d130b72ba594756844b628f0ae2
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
+  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
+  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: bb22cc2814598bf2511f6c811c1dc194 -> dd1f6d6bc6ad5beda69b13cdb560799f
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
+  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: c4d95cb84d9d8dff4727eba6b0a64378 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: f578f4545f0afb1f0a2de9a25e26e33b -> 9fcb97ef2da44c66332f5c6800c2e6ed
+  custom:scripting/monoscript/fileName/DrawTextBlockWithLink.cs: d38f3ee197d9063693d0301d5157b32c -> 1d43814d810f0d56e2964ad3b72f271e
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 5f05751fd4d94e02e79a5bf200f98f9a -> 43dcc435c252a54bdaaf4d6588b7d66e
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ShelvesSelection.cs: 05891c88858e4ac7776c0c0c49b5b74f -> 8a3e11e7cd7bbf10b24988c7bf636dea
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: a96a5a084d59fe3917a3831b68fa9479 -> d86f9f4463e6f9d99bb815e1f018ccf1
+  custom:scripting/monoscript/fileName/AddMoveMenu.cs: 07e842d83dd343358454fef0a7927a0d -> e681c3341f01390e9c1d636ae93280df
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: c126b47f9f934d48f0646c249a5bfcca -> 8c4ae1aeb34c51d2a5a8924265075ff2
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 9ce81cedb8e568c6b7b646aa6263645b -> 
+  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
+  custom:scripting/monoscript/fileName/MergeTab.cs: f39dce5bbfdc053d284a55fc102a8be9 -> f0a9f00e065364eb63b070091ade67f8
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 59d6887e4803f8a44ffaa0409470e410 -> 
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
+  custom:scripting/monoscript/fileName/OtherOptionsFoldout.cs: eea27b9873519c1ea7c35b8afc1b7947 -> cc8f3a7680050422963ebd2bf169a841
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
+  custom:scripting/monoscript/fileName/ApplyShelveWithConflictsQuestionerBuilder.cs: e109c624745dcc4304c557872b253808 -> 02e4256f31bc905362a382e31c3387eb
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
+  custom:scripting/monoscript/fileName/ShelvePendingChangesDialog.cs: 47aa4c07d31152c0c1eff64d2ba76cc6 -> 86b1f48b5fbaffa67e939e7f404062e6
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
+  custom:scripting/monoscript/fileName/UnityMergeTree.cs: f81f2d7551ab855fe9dc724f3f2e2892 -> 59edaa0a4669bbcb540a261166adc144
+  custom:scripting/monoscript/fileName/CycleMoveMenu.cs: 91c21a0be9b3727d7673f94321029c52 -> b3993a7306fc941f55ca963833965729
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: 506ed128854137d9f75f9e3d2576a06b -> b0a38ce0a620643c776a3db4fd91bc4c
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
+  custom:scripting/monoscript/fileName/ShelvesViewMenu.cs: 947ea245959bf421539573511c3a0058 -> da5dc74b3444288f443961ecab7245d6
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
+  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
+  custom:scripting/monoscript/fileName/ExternalLink.cs: 685ff1dd6f55eb61a1fd8af84a2aa7f5 -> a8ff952d8c27d10f226ab92b7aa83b69
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: c40bc4c8524ef3e2374ef997beb2e4a6 -> 9ae2295080d141c0f12d02a71014e11c
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
+  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
+  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
+  custom:scripting/monoscript/fileName/GetWindowIfOpened.cs: 84a2356c61155912908cf98a62600c22 -> fd8bfd1a9b371371ebbff48e377726f9
+  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
+  custom:scripting/monoscript/fileName/TreeViewItemExtensions.cs: d22abf8de7a9ab0e852b869a652f100d -> 6849c47ffa8623d630ef12f76bd49905
+  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: 8ab6ae74a3793a3375cc48f328048a82 -> 746756fd499dddd02a4e7ccdbac48be3
+  custom:scripting/monoscript/fileName/ShelveListViewItem.cs: a37862556d04b25f75804d991e109d87 -> 373418f0ae11fc25a26ff7fe4f472006
+  custom:scripting/monoscript/fileName/OpenPlasticProjectSettings.cs: 5a86fd454f7c9f74b62653e269818d3f -> 
+  custom:scripting/monoscript/fileName/PendingChangesOptionsFoldout.cs: 2a2f5a0ba87bd75c4475236a9a012016 -> f9e651bcc5d4441496c88ab59a32f360
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: d8c19bc81b07c04d7721396d2821d297 -> 96479648d4498738733254eb4e4c6fb5
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
+  custom:scripting/monoscript/fileName/ShelvesListView.cs: 0763e4076b11a683fa148282680085c0 -> 01c1f087b2f83b458da6b8ad18736606
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 30c3a785b4c2607e2ae9aad693d5f604 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: 69c1b7249af35f35848ae707bd5e7113 -> 
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
+  custom:scripting/monoscript/fileName/DrawActionButtonWithMenu.cs: d7f31944358aed2f3ed3982246fca039 -> 8d4f5edd02a1dd0f38c4f2baf5ee8a33
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 9bf59c82e9c9992a012a3eb2b6c2bfe5 -> 509edc26860f8be303ec97d68aabc30d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
+  custom:scripting/monoscript/fileName/MergeTreeHeaderState.cs: d266e9dd03ced7ec66ad3688e5f18f26 -> 6293ca7f65e9641fcbe12100e705a990
+  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
+  custom:scripting/monoscript/fileName/ShelvesTab.cs: 88e0da7511313c57d3f51ba183c4d3fc -> fca0a219bdad45e636bd34724e5dc89d
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: 07e35bfe1faa2c52c049eb30958acd54 -> f06c185659ea2f4a75f9397861dc6096
+  custom:scripting/monoscript/fileName/DeleteMoveMenu.cs: 39c593e854a9a8ae0e6d34ceb587fce1 -> 4d026cbabd8105e38661f97da078042a
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
+  custom:scripting/monoscript/fileName/DeleteBranchDialog.cs: efbbc070bfeda2b746e8b15a4380cb26 -> 8549b0fc52962c89115fd78724fee578
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: d7ac4b8f9ea939309b8ceb7f729100a2 -> caa8ea2c7336b9227381f0971759e01a
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: d4c16fd6aad8161eda7d99fd74cbb08e -> 
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: cc3142391037796392fcd3fe860891dd -> cd35171982f17897dd5148dda46e0956
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
+  custom:scripting/monoscript/fileName/ClientConfiguration.cs: 5f5e47bfb7cedc7420d7e59c6d7ae6f0 -> 01b18b09a6dbb3756e1f42a5b64aab0f
+  custom:scripting/monoscript/fileName/AssetVcsOperations.cs: 50ee89e011ba3d800b4e7a9a24aca7e1 -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: b0aae1bf1889af041741f324070b7b84 -> 63a17a2b696bc2a13c9046aa16f8cea4
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 7953272c37f4a828a3d1096e7479f346 -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
+  custom:scripting/monoscript/fileName/UnityEvents.cs: 253411328de37811883aded592b97268 -> c830e584565fcd66ca0d5a23ad8b9bd6
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DeleteChangeMenu.cs: 540c783b689e4d6a4a383862455d5d39 -> bfa368dc06e11abcc107d6f80c7c19c5
+  custom:scripting/monoscript/fileName/SelectNewCodeReviewBehavior.cs: df6e8e132199ea6ec467c9bced11011d -> a16edf3a8c3e5ac26863e890f68fd937
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
+  custom:scripting/monoscript/fileName/ProjectPackages.cs: e247c98bd45807b228765f9a94d82145 -> 9e9e13e39b2e9718b602503b87245c18
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
+  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 6c4e7f9dc55323aa1299debfe9723aa6 -> bf4bbd2f2e752464ef51dbf102faed17
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ff731c8aacf4a537dc74c7cf9eaeaed0 -> 
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 7d654a2b5b3a10da3e7d8472196e96d1 -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
+  custom:scripting/monoscript/fileName/MergeOptionsDialog.cs: 25ac62df73845405e13f44e4dfdcf0d1 -> 9250ce23d260ab84f87bd5899c6cf983
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 3629fdff9f054b2013702f5b131b2c47 -> 
+  custom:scripting/monoscript/fileName/MergeTreeView.cs: 143a828a1a236483d3cdc1d010ce9d51 -> 3feb38cec50d3fc7576ddbf07a9a9ce8
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
+  custom:scripting/monoscript/fileName/ShelvesListHeaderState.cs: d3cea237aa496a145829475430d90f29 -> 287f23cbe09ecb9b28ec8dd05ede8846
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
+  custom:scripting/monoscript/fileName/TabButton.cs: 757146b89ed597b1d75c77241e5d5f63 -> 
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
+  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
+  custom:scripting/monoscript/fileName/MoveAddMenu.cs: 81d47caeb9f49803adfe1627c8ce5bf4 -> 1fbfab870b2e95fdd8a81f6019f764df
+  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 131bfc7279b97eba576abe13a47f8f91 -> ebcce67603e288b4a84d49287db6ef5a
+  custom:scripting/monoscript/fileName/ShelveAndSwitchOptionsFoldout.cs: 676902ec49ff9c5abb2a832f067966e8 -> e7b216a23869eafb9aecd00a8905fafa
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 46b225d941aaa7b69168ef4467ffab1a -> 28d3e288ea1cf459fc3cca96347c70bf
+  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: 9141660c9776c5dac5f980fd03a672a8 -> b961336a4a43551eb826f97c57673007
+  custom:scripting/monoscript/fileName/MergeViewDirectoryConflictMenu.cs: d45972e8b5f74223c607a4daa895ff3d -> fad8e1937fc14fd75ca21a68ee1037b8
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: 4479d2949a66a97f66d1e550067f3767 -> 5a15c606785f1f54a697bb0d0d846dfb
+  custom:scripting/monoscript/fileName/BoolSetting.cs: d67f952c3a5976591f3e9a9e7356bbab -> 12bf039ccd38b0f4ccfffbec3cbbf108
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
+  custom:scripting/monoscript/fileName/MergeViewFileConflictMenu.cs: d7362b83d6b320a0f0ceaf99dbe21727 -> 8fc0f292158abfa71c2c7b3b6f38d32a
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 96208057b904410715a8df295ba4f8f4 -> 
+  custom:scripting/monoscript/fileName/IsResolved.cs: 67a72533af97b9ab7830798057ab806c -> f54a3e2c5134aa4306f9ad150b1911a9
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
+  custom:scripting/monoscript/fileName/BranchesTab_Operations.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/DiffAndMergeOptionsFoldout.cs: 080cbf9242c0571bafa2e45ef8932448 -> 2810bae564e92b04bc7ebe4e47a2880b
+  custom:scripting/monoscript/fileName/PlasticShutdown.cs: a8df8eeeed98372d06e446171a192a6d -> 
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: fc48261878ef7e4b956e7172f5803aee -> 
+  custom:scripting/monoscript/fileName/IsExeVersion.cs: 093723a3ef9cbad630dfdc60c764eff0 -> 9ef63354090e3419637bfe79e3489687
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: f774bb8bf0bd45a254894c795843c695 -> 42967773c43d3de5d23be4ddc6dfd9c4
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
+  custom:scripting/monoscript/fileName/UnityConstants.cs: 323df5e3c80d05e06517581c776fde34 -> e3d3c3e11a194da9e5bbbfb97087a7bd
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
+  custom:scripting/monoscript/fileName/LoadedTwiceMenu.cs: 961f9b82936caa7937046ac23d323c2c -> b54aa2e14eb740621bb6f926af7cb8ef
+  custom:scripting/monoscript/fileName/AutoLogin.cs: e67ed70aada38469aeb667115929c368 -> b4cb98371fc38cca00d7123b7e649e12
+  custom:scripting/monoscript/fileName/DrawMergeOverview.cs: 1db93bf179b38015949e3a3cb6ef1bd3 -> 49e0e525c3c170f79c20dc6779b7ead8
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: aeae601320588a70eea7590a2f7e0f69 -> 871a0804a9fe2d9f2ad088303a89a63e
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 920e8e381bfc94da8bb69d336dda57ca -> 
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
+  custom:scripting/monoscript/fileName/EnableSwitchAndShelveFeatureDialog.cs: 2cb9334d072aaff777efab2d72a2583e -> 03bdf2f298649e7c429ac90c7a3c461a
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
+  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
+  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
+  custom:scripting/monoscript/fileName/StatusBar.cs: 2c8c488a8bbfe924f6b53b202ff6aadd -> 
+  custom:scripting/monoscript/fileName/IsCurrent.cs: 7343ceec4312304bb8b398eeb6c375fa -> cf1fd01890d0fd9f011c1a1a491e2cf0
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: b3299af90b664a9f42123e7df43fae24 -> 6aff0ac022d117a8e24a7b5e4b11904c
+  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
+  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
+  custom:scripting/monoscript/fileName/OrganizationsInformation.cs: b3f0758c6655b2dad1161792812992fa -> 5f067ea8d90fc79055a3dcfd58ae6dca
+  custom:scripting/monoscript/fileName/ChangeDeleteMenu.cs: 652dcd6f863c509bfa0376b6d95ab1ec -> 4fefe66d6e279ce0ac2fdc57d409f232
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 47dc767626bbd94d66707af31ddc5eb6 -> 
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
+  custom:scripting/monoscript/fileName/MovedEvilTwinMenu.cs: ce111941dc7264d29598ce7fd2770927 -> d480b839850d28c1c9526cb587fc752d
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: d4ceabdc48d8a1872bbe87f04d89a4ff -> 40644cd18074db84684b9e437bf8fa77
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
+  custom:scripting/monoscript/fileName/ShelvedChangesNotification.cs: 13b6a2ccd8b4ac1f5ee30c8404cea3b0 -> a27e9e7b242b904f41fc1b16d3a1b3fd
+  custom:scripting/monoscript/fileName/EvilTwinMenu.cs: 475a88947051822ca4915306469f9bcc -> 919e4faae0573e49949f6dfbb5a733da
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
+  custom:scripting/monoscript/fileName/TreeViewSessionState.cs: 8333273b312d475b653610e2871c20a5 -> 9f39a2ca55a7481b8ba078d3a2b6815e
+  custom:scripting/monoscript/fileName/ErrorsPanel.cs: 21fc210ee17d5e95782397ef8c7dafab -> 515b7ba9af5e7885ba3068b1d63c6104
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: fc467478941f610919bc69526ba2c215 -> 
+  custom:scripting/monoscript/fileName/PlasticExeLauncher.cs: caa0b5dda5df50c85bb19d27252d16b9 -> f1da27253760250030952f02cb54965a
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: a602c9e59e7db185e3a0d68d986e6fef -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1289119.439824 seconds.
+  path: Assets/Font/Ttf/TiltWarp SDF.asset
+  artifactKey: Guid(8ba56fc44697341d7bb3f5679974342a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/Ttf/TiltWarp SDF.asset using Guid(8ba56fc44697341d7bb3f5679974342a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '484d042b67a38194ff6e28e4e55bd4e4') in 0.154410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SROptions/SROptions.Test.cs
+  artifactKey: Guid(14c367afbac609c4daccf8ac8955597d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SROptions/SROptions.Test.cs using Guid(14c367afbac609c4daccf8ac8955597d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'addcd58a35824ef1747cb1bdb8db6a13') in 0.007123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Utils/EffectRotation.cs
+  artifactKey: Guid(5a72653d81ef6684daea63e9a014d5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/EffectRotation.cs using Guid(5a72653d81ef6684daea63e9a014d5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e9b7440d564e82e69fe79d5d0ff23ca') in 0.004013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Blue.mat
+  artifactKey: Guid(f1afd994cf58d4462b6f64c63234f856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Blue.mat using Guid(f1afd994cf58d4462b6f64c63234f856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '736a9edbdcd6595485685f2dee020af7') in 0.007096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Settings.cs
+  artifactKey: Guid(16d00b7005a47ef47802a8421dc6baf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Settings.cs using Guid(16d00b7005a47ef47802a8421dc6baf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b3ed932139f01c861e08d0557ad3775') in 0.003463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRIntegrityCheckWindow.cs
+  artifactKey: Guid(8d3667acfb91436880aa7f35bcc5fe43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRIntegrityCheckWindow.cs using Guid(8d3667acfb91436880aa7f35bcc5fe43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b7487c31d8665181200dd346d4ca240f') in 0.004106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/Manager/EventManager.cs
+  artifactKey: Guid(4192a8fecd385fd4498283899ef7bb66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Manager/EventManager.cs using Guid(4192a8fecd385fd4498283899ef7bb66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a5f24f25dd65fe7aa0900b70a8a88e33') in 0.004785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Green.mat
+  artifactKey: Guid(bffff4cde4d884dbeb6c16d1398f3b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Green.mat using Guid(bffff4cde4d884dbeb6c16d1398f3b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c50664dd18a18fe57864f544d8464925') in 0.005633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Red.mat
+  artifactKey: Guid(3e8137de4a0dd4dc7937dbdc7b8443fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Red.mat using Guid(3e8137de4a0dd4dc7937dbdc7b8443fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f5ffa053f1e8eb02c856f679a2412a8') in 0.006618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/Utils/PlayerPrefsUtils.cs
+  artifactKey: Guid(d474dd70c454f4f4da0014597c1eb10e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/PlayerPrefsUtils.cs using Guid(d474dd70c454f4f4da0014597c1eb10e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ee5edbf8a4b787e07b8e9975781c0e3') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Font/FontMaterial/PurchaseDialog/TiltWarp CommonTextOutline_FirstPurchase_Tag.mat
+  artifactKey: Guid(dc2436de2db70472490890dab8508ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/PurchaseDialog/TiltWarp CommonTextOutline_FirstPurchase_Tag.mat using Guid(dc2436de2db70472490890dab8508ffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be2e55f2c742e3fbe0d114ead3d65ae4') in 0.005040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Version.cs
+  artifactKey: Guid(8f621404e9f88e144a8f9d2b15378f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Version.cs using Guid(8f621404e9f88e144a8f9d2b15378f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55e2d07dec3ae999d690ba393556ff9f') in 0.004697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Coroutines.cs
+  artifactKey: Guid(83ca528cafb0d2e40866729c49dc2d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Coroutines.cs using Guid(83ca528cafb0d2e40866729c49dc2d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e7ae420bb9f615c3a9a7b9058f7ea34') in 0.003697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/StompyRobot.SRF.asmdef
+  artifactKey: Guid(05dbf8cd246c9274c8a78a65142e5f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/StompyRobot.SRF.asmdef using Guid(05dbf8cd246c9274c8a78a65142e5f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc368fbaaa01f79710ac73e32871026f') in 0.004406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SettingsEditor.cs
+  artifactKey: Guid(6304f38f53dfcc44f9265410f0f14050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SettingsEditor.cs using Guid(6304f38f53dfcc44f9265410f0f14050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '538ab8bb8e8ca9e92072ebeac80ebc8f') in 0.003687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scripts/Utils/BackgroundFitter.cs
+  artifactKey: Guid(d6ee60e2fd8d081408ae247ccedf3bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/BackgroundFitter.cs using Guid(d6ee60e2fd8d081408ae247ccedf3bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3cf06ff354e7c9ca7fa25536e64e02c') in 0.004614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Black.mat
+  artifactKey: Guid(108de82dbf2a64ad69a8e530a8366427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Black.mat using Guid(108de82dbf2a64ad69a8e530a8366427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '859d750919f16cb03de5ef43c5f0811b') in 0.004830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Utils/GameUIUtils.cs
+  artifactKey: Guid(3e46f2162f14e7a4f84492eb1f6545cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/GameUIUtils.cs using Guid(3e46f2162f14e7a4f84492eb1f6545cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acf158c14dd0bd109bbadb9e109c1ee9') in 0.004450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/SRDebug.cs
+  artifactKey: Guid(469b426fd7f6b90459d78fc3a5b1360b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/SRDebug.cs using Guid(469b426fd7f6b90459d78fc3a5b1360b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e86be5bafe166fdb646681bd99b02652') in 0.004451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/Utils/TimeUtils.cs
+  artifactKey: Guid(673bf12a540144d448bfb00255c46f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/TimeUtils.cs using Guid(673bf12a540144d448bfb00255c46f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a811423218696c3ed3e6ffda63eb4e7f') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/Utils/BezierTool/BezierTools.cs
+  artifactKey: Guid(d4020e357d99eeb41bb50181882655e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/BezierTool/BezierTools.cs using Guid(d4020e357d99eeb41bb50181882655e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d92c96ffb08e76340a839da8f91cfa7') in 0.003945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Green.mat
+  artifactKey: Guid(f18467f39d17b4b3eb780a009bd718af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Green.mat using Guid(f18467f39d17b4b3eb780a009bd718af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a1e705d138d64f41a55be3fcb0c3442') in 0.005708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/SROptions.Attributes.cs
+  artifactKey: Guid(07d851b2833fe2d418d42519e51fac5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/SROptions.Attributes.cs using Guid(07d851b2833fe2d418d42519e51fac5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff2e686a3d8b62be81c80ad051befeb6') in 0.004133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef
+  artifactKey: Guid(bcc75752368a72b4aba4043ea13b2a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef using Guid(bcc75752368a72b4aba4043ea13b2a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2cba4479eb11b53c69eb43893738862') in 0.003468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/DemoSprite.png
+  artifactKey: Guid(7b0a319b449bc9248bcf5e3dc38ca884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/DemoSprite.png using Guid(7b0a319b449bc9248bcf5e3dc38ca884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '326d5aeebe0902b519a5d86baa80b6db') in 0.059630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Define/Const/CommonConst.cs
+  artifactKey: Guid(0dfe12ef669e402449203e89960cd29c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Define/Const/CommonConst.cs using Guid(0dfe12ef669e402449203e89960cd29c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02bfee381585cc1cc0f91f54cf5e3d69') in 0.003922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/External/MiniJSON.cs
+  artifactKey: Guid(ac9ef7034b8966443b1c264ec9cf4cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/External/MiniJSON.cs using Guid(ac9ef7034b8966443b1c264ec9cf4cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3bdd408787c9f3c52dbe58599a6f111') in 0.003424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Launcher2.mat
+  artifactKey: Guid(eb74b6fe3239740a9ba4b9663c77c568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Launcher2.mat using Guid(eb74b6fe3239740a9ba4b9663c77c568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67857bae5ac7a0b3a6807bfb1639bf02') in 0.005095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Utils/GameObjectUtils.cs
+  artifactKey: Guid(b2062d0ac4ea60e4093938acaf5c6939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/GameObjectUtils.cs using Guid(b2062d0ac4ea60e4093938acaf5c6939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae960cf144872ddee1c165e1ae22f3f8') in 0.003419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.cs
+  artifactKey: Guid(ca60d3f1302b47e1a3c6f43ed06dedcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.cs using Guid(ca60d3f1302b47e1a3c6f43ed06dedcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70cf107c7ee872277996d44f10c3c4b0') in 0.003853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape DarkGreen.mat
+  artifactKey: Guid(1a9bb419ab49b44bc9ff0d02e1a833c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape DarkGreen.mat using Guid(1a9bb419ab49b44bc9ff0d02e1a833c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b34083e1eac7990bb9b244e34cc73945') in 0.006399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Utils/EncryptUtility.cs
+  artifactKey: Guid(cae7be3528a1562468f4b00fcbc6d65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/EncryptUtility.cs using Guid(cae7be3528a1562468f4b00fcbc6d65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53759847fac54838a7d5a59dd9f64c75') in 0.003705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorPaths.cs
+  artifactKey: Guid(6eeabd6854ed440ab38998300a297c0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorPaths.cs using Guid(6eeabd6854ed440ab38998300a297c0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37762d80737b2ff18a9c0f9b98505bd4') in 0.003810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/README.txt
+  artifactKey: Guid(dd822d7590660b445be21ef00893e4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/README.txt using Guid(dd822d7590660b445be21ef00893e4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5653094cbd31c219b3fd58ff2ecfa8ce') in 0.003902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorStrings.cs
+  artifactKey: Guid(cd05741ba3454346864f3c28fcdce56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorStrings.cs using Guid(cd05741ba3454346864f3c28fcdce56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '62f5b8da82735d93bab73f55c5877df9') in 0.004009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Brown.mat
+  artifactKey: Guid(f1b45989a103844eeb76bb783a31d94d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_Brown.mat using Guid(f1b45989a103844eeb76bb783a31d94d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfb89028c03c1ff8dc1298745f4c3461') in 0.004334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Font/FontMaterial/PurchaseDialog/TiltWarp CommonTextOutline_NoAds_Desc.mat
+  artifactKey: Guid(c44541804737f4673b0113996344071b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/PurchaseDialog/TiltWarp CommonTextOutline_NoAds_Desc.mat using Guid(c44541804737f4673b0113996344071b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83b95e884a0b8467d64b61ba784fcdda') in 0.005912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Cyan.mat
+  artifactKey: Guid(bcc68ba4bae9d4a7a920e2144bb09fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/LevelShape/TiltWarp LevelShape Cyan.mat using Guid(bcc68ba4bae9d4a7a920e2144bb09fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2869543ed3f6f3dd4a2382a340d0f02a') in 0.005178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/Define/Const/EventName.cs
+  artifactKey: Guid(2c3f5513d58f4a942b9e5752e5cfcfc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Define/Const/EventName.cs using Guid(2c3f5513d58f4a942b9e5752e5cfcfc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f420e13035a63a422f149938941eb845') in 0.004253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_2_Semi-transparent.mat
+  artifactKey: Guid(60a5d70ce1fc1480a8ef97ad64939255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_2_Semi-transparent.mat using Guid(60a5d70ce1fc1480a8ef97ad64939255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e2fcda474f2e28d8c1d7e744477ef8f') in 0.006477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Utils/MathUtility.cs
+  artifactKey: Guid(e3683cb55e034d34d93eb54e119bd49a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Utils/MathUtility.cs using Guid(e3683cb55e034d34d93eb54e119bd49a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79c2a593dee312d915637293b3e7118b') in 0.003900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/External/Jetbrains.Annotations.cs
+  artifactKey: Guid(643a949c9c71dd94a970b2573c29fe67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/External/Jetbrains.Annotations.cs using Guid(643a949c9c71dd94a970b2573c29fe67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1fe82c0444e04c0ced41b12408985e72') in 0.004488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/ApiSignup.cs
+  artifactKey: Guid(c678ba20e05678942905f13f1f42c8e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/ApiSignup.cs using Guid(c678ba20e05678942905f13f1f42c8e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9dafa805ca9e0484a04f008511d7fe7') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_LightRed.mat
+  artifactKey: Guid(8c95eaf9cfdef48d1bea4496ca615206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Font/FontMaterial/Common/TiltWarp CommonTextOutline_LightRed.mat using Guid(8c95eaf9cfdef48d1bea4496ca615206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd58e55ace850d51aa785381471b47c9f') in 0.004596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Internal/ComponentMenuPaths.cs
+  artifactKey: Guid(5483729387663d0428dfecd534652360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Internal/ComponentMenuPaths.cs using Guid(5483729387663d0428dfecd534652360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cf09ce0e85f642ca2f828479f3d66f4') in 0.005176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SROptions/SROptions.asmdef
+  artifactKey: Guid(6c67536ec9ebce5459c30245ecd3ee36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SROptions/SROptions.asmdef using Guid(6c67536ec9ebce5459c30245ecd3ee36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19513b5304b497e88af84dc6fbb573fb') in 0.003629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Logo_LightBG.png
+  artifactKey: Guid(28369deb7b17a7a43921a7a8e74e6229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Logo_LightBG.png using Guid(28369deb7b17a7a43921a7a8e74e6229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c733407e12baf1b0aaef2e7d7a96c0f1') in 0.013662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.859392 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SROptionsWindow.cs
+  artifactKey: Guid(c10ec5c3e9f1e404ba655cbc07340b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/SROptionsWindow.cs using Guid(c10ec5c3e9f1e404ba655cbc07340b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5160e7c6e44080e7055d1061180537f') in 0.007581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/TransformExtensions.cs
+  artifactKey: Guid(891f8206d8bca304fbbf298c6a37648e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/TransformExtensions.cs using Guid(891f8206d8bca304fbbf298c6a37648e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8491eae0bc1f081b39203b18831cf619') in 0.006067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Profiler/SRPProfilerService.cs
+  artifactKey: Guid(3f6b60357b55b3a438c0f79ba2be864c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Profiler/SRPProfilerService.cs using Guid(3f6b60357b55b3a438c0f79ba2be864c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '813fbce0be4f2b235b2d38bf8d5a99f7') in 0.006283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/StyleRoot.cs
+  artifactKey: Guid(d1bf029da478aff42a6d6e0ed8e21203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/StyleRoot.cs using Guid(d1bf029da478aff42a6d6e0ed8e21203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c50076ec8fe5244e4dda4be827d80c2a') in 0.008918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRText.cs
+  artifactKey: Guid(983b04ffc0cd0a04fb74c9b74eb789bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRText.cs using Guid(983b04ffc0cd0a04fb74c9b74eb789bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2f09eeaed833833d4649079e6965e4b') in 0.009704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.Functions.cs
+  artifactKey: Guid(c0be6d36a29af844fa2d7584d66b374c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.Functions.cs using Guid(c0be6d36a29af844fa2d7584d66b374c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a42f4542b5e85fd221f1a0c2e0f25b8') in 0.007160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IConsoleService.cs
+  artifactKey: Guid(60ae196448d0a9549859c96c7ed8b974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IConsoleService.cs using Guid(60ae196448d0a9549859c96c7ed8b974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f81c2c692819bc78882fa70cc4ae94f8') in 0.007344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/Util.cs
+  artifactKey: Guid(0e0f09d4b116f524381461f865525607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/Util.cs using Guid(0e0f09d4b116f524381461f865525607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e151ef6572a00091691aab8a60e956f4') in 0.005302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/SourceCodePro-Regular.otf
+  artifactKey: Guid(718657b6be420a6498b0f091c199a215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/SourceCodePro-Regular.otf using Guid(718657b6be420a6498b0f091c199a215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9f9ff1eb688e5bb81ff3468e412f0ab') in 0.019034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/SRDebugUtil.cs
+  artifactKey: Guid(f74f500c46d2b60419e95b8bd0cb87b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/SRDebugUtil.cs using Guid(f74f500c46d2b60419e95b8bd0cb87b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '278dff7c53f768e4bff7c8ffb0c7087d') in 0.009348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/GameObjectExtensions.cs
+  artifactKey: Guid(57a08f4d800e4384fac80b0ecf63a7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/GameObjectExtensions.cs using Guid(57a08f4d800e4384fac80b0ecf63a7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6904f066736f6f4bddbddfd655d4471b') in 0.005926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/DragHandle.cs
+  artifactKey: Guid(8faed27c04557e24e8aecd35f2b4d9d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/DragHandle.cs using Guid(8faed27c04557e24e8aecd35f2b4d9d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0000af18fbbaedbf5c19b1c1519a21aa') in 0.007102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/ServiceSelectors.cs
+  artifactKey: Guid(201175bddf2810a48bf7e4ca1e0ab782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/ServiceSelectors.cs using Guid(201175bddf2810a48bf7e4ca1e0ab782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1f012a818570ef9ab3904be11405239') in 0.006448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Unselectable.cs
+  artifactKey: Guid(7134149b092993149867a9ce13a5ec50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Unselectable.cs using Guid(7134149b092993149867a9ce13a5ec50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '952bdf8b7eb3aef345e33a1ce2cebbca') in 0.005704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/Attributes.cs
+  artifactKey: Guid(901f51b194db73d479d84ae26519fc20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/Attributes.cs using Guid(901f51b194db73d479d84ae26519fc20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8aa43eb99677f28a3c6e6f0fddf590f7') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveBase.cs
+  artifactKey: Guid(8a53d43b4191c4c4d9ed43860feca27e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveBase.cs using Guid(8a53d43b4191c4c4d9ed43860feca27e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db53f096e2d876507561c13b10130448') in 0.005559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Components/SRMonoBehaviour.cs
+  artifactKey: Guid(a97a8611d5d683b4aa89a5054bc3774e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Components/SRMonoBehaviour.cs using Guid(a97a8611d5d683b4aa89a5054bc3774e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '350dc9bde3964f985225e3f60a007160') in 0.006577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/InheritColour.cs
+  artifactKey: Guid(5ed84aa42fb48c9458d3942c1d059055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/InheritColour.cs using Guid(5ed84aa42fb48c9458d3942c1d059055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c371958028cfd613b0ac05783259720a') in 0.005768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/BugReportApi.cs
+  artifactKey: Guid(dfdfb4c8f27446b4d8aa88d3980f4c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/BugReportApi.cs using Guid(dfdfb4c8f27446b4d8aa88d3980f4c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61dc503cbd1f20977b8f2aa09705cf3e') in 0.007172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/NetFxExtensions.cs
+  artifactKey: Guid(f503b1a2564101f4f96417c97debaaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/NetFxExtensions.cs using Guid(f503b1a2564101f4f96417c97debaaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '892fc1754874687e4ca0b3226929ea5e') in 0.007070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/AssetUtil.cs
+  artifactKey: Guid(de28cc9633260c54a9ba062b7ad82e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/AssetUtil.cs using Guid(de28cc9633260c54a9ba062b7ad82e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6838c6653947bcf6a91728bc2ac55330') in 0.006019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRSceneServiceBase.cs
+  artifactKey: Guid(ff0dcbb555990d24e9e3055e77395656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRSceneServiceBase.cs using Guid(ff0dcbb555990d24e9e3055e77395656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df16b9bcca87f3a9de18c19e5f255450') in 0.005224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs
+  artifactKey: Guid(f809cd2d9d5ae074cbecca0ab4d472b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs using Guid(f809cd2d9d5ae074cbecca0ab4d472b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2313ffd0f86554a0f535ed5aebd06ab') in 0.006668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs
+  artifactKey: Guid(395e9c70b6db8df408e038114524cc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs using Guid(395e9c70b6db8df408e038114524cc0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '03d68401ffb24992357540b78e92396f') in 0.007220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRNumberSpinner.cs
+  artifactKey: Guid(f7e6a39da209c144797f44248b82bfb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRNumberSpinner.cs using Guid(f7e6a39da209c144797f44248b82bfb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '41d3264d78d80950387c87670a2d6dc7') in 0.006486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/WelcomeWindow.cs
+  artifactKey: Guid(1e35f7047e81c2247ae9a5bfd682e156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Editor/WelcomeWindow.cs using Guid(1e35f7047e81c2247ae9a5bfd682e156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa8c7a0c40a7ca4ecfc35d10423b37d6') in 0.007013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/PropertyReference.cs
+  artifactKey: Guid(dedbd84f93f7d4c4e86f2d3a238916c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Helpers/PropertyReference.cs using Guid(dedbd84f93f7d4c4e86f2d3a238916c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd034ca55b2f409ee65d49c22476f9a2d') in 0.005956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ContentFitText.cs
+  artifactKey: Guid(dced79525dbfa2b44b8d52b2cca6d745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ContentFitText.cs using Guid(dced79525dbfa2b44b8d52b2cca6d745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf60807645c91c38f7d9df1b283c908c') in 0.008682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/MobileMenuController.cs
+  artifactKey: Guid(3cc3afaacd56e9b4f9f2b6201ec85267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/MobileMenuController.cs using Guid(3cc3afaacd56e9b4f9f2b6201ec85267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0eb2220392f134aaff6e568f7f8128ec') in 0.006343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs
+  artifactKey: Guid(82088ea802108344da1e919daa6881fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs using Guid(82088ea802108344da1e919daa6881fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '119d04bcb0008be32783f60d01feb65c') in 0.005712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/LinkedListExtensions.cs
+  artifactKey: Guid(6cb367015d24c4d4985ed16bf166bc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Extensions/LinkedListExtensions.cs using Guid(6cb367015d24c4d4985ed16bf166bc62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a613750625bc64e8aa46bea3bba25791') in 0.008090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/FONT LICENSE.txt
+  artifactKey: Guid(ff89cdf7c4536ff47b40d4549239bc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/FONT LICENSE.txt using Guid(ff89cdf7c4536ff47b40d4549239bc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9101ace036503df113346867053ef1e') in 0.006450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/InfoBlock.prefab
+  artifactKey: Guid(54dcbf94ddefe604898e059992c2f974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/InfoBlock.prefab using Guid(54dcbf94ddefe604898e059992c2f974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93c5dcc161d6dd300006a0c6b67013e8') in 0.030060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IDebugCameraService.cs
+  artifactKey: Guid(be2986b8bcb479048bcb9c2a3d8a4858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IDebugCameraService.cs using Guid(be2986b8bcb479048bcb9c2a3d8a4858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a3e32505f14fe1dcacef458b3f2fb04') in 0.007033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/CopySizeIntoLayoutElement.cs
+  artifactKey: Guid(65f264d1c98f61c4f9143ddeb0e74ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/CopySizeIntoLayoutElement.cs using Guid(65f264d1c98f61c4f9143ddeb0e74ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1cb29f014f5490afeec5e60cf5f6711e') in 0.004562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IDebugPanelService.cs
+  artifactKey: Guid(7a54c100bc481624fbcf017674046a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IDebugPanelService.cs using Guid(7a54c100bc481624fbcf017674046a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55f651267d45118de66d10bab0465056') in 0.004843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRServiceManager.cs
+  artifactKey: Guid(83920a42d6e0f814bacbc701ae8636a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRServiceManager.cs using Guid(83920a42d6e0f814bacbc701ae8636a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25c8352763212e2b8f2d2dbbe0fde705') in 0.005887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/ISystemInformationService.cs
+  artifactKey: Guid(bfaf3e98a7641224c96169cc4280c372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/ISystemInformationService.cs using Guid(bfaf3e98a7641224c96169cc4280c372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43dae9811846803e37c8dff0c0164031') in 0.005337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/FlashGraphic.cs
+  artifactKey: Guid(95878e800ddd366418edfb56a22f9d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/FlashGraphic.cs using Guid(95878e800ddd366418edfb56a22f9d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65a5a0656358f64abb845fac09c2c7ca') in 0.005276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/Orbitron Bold.otf
+  artifactKey: Guid(4e46f78eb6d69074d9b4fe427bb2f1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Fonts/Orbitron Bold.otf using Guid(4e46f78eb6d69074d9b4fe427bb2f1a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7ad0c851cc762117e8c7a6dc2947717') in 0.010536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRServiceBase.cs
+  artifactKey: Guid(c4f48d5ad0a809349bd5e46160a824d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/Service/SRServiceBase.cs using Guid(c4f48d5ad0a809349bd5e46160a824d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24343ad76cac72e0918eb13fca9998ea') in 0.005168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/CopyPreferredSize.cs
+  artifactKey: Guid(32609112f4257a740aa4b920a8556d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/CopyPreferredSize.cs using Guid(32609112f4257a740aa4b920a8556d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2048ae09f250569ac662ad297f047ecc') in 0.005512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IPinnedOptionsService.cs
+  artifactKey: Guid(d38ebee13954f8b40ba8b4c26e3efe90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/IPinnedOptionsService.cs using Guid(d38ebee13954f8b40ba8b4c26e3efe90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '427a4e0368592332a8541c9bd0895c09') in 0.007051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Pin/Invalid.anim
+  artifactKey: Guid(298885be62621e042b5946b9c09c039d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Pin/Invalid.anim using Guid(298885be62621e042b5946b9c09c039d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '249157cbf7901ba23cb70adf37edc378') in 0.011717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/OptionDefinition.cs
+  artifactKey: Guid(c6fb9bd71eceb4145a013bb7fe025c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/OptionDefinition.cs using Guid(c6fb9bd71eceb4145a013bb7fe025c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ab907289f825950163e3b0f052956a4') in 0.005539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/StyleSheet.cs
+  artifactKey: Guid(d631692ab5174474eaaf2b43947b0b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/StyleSheet.cs using Guid(d631692ab5174474eaaf2b43947b0b9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e267c005e7fd79908a7815312c3df2b5') in 0.006311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/LongPressButton.cs
+  artifactKey: Guid(3fc6d8b69639fdc45a849df5b853c783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/LongPressButton.cs using Guid(3fc6d8b69639fdc45a849df5b853c783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5aa6176c8d7c55f2b3c34cb2ba3f735') in 0.004956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveEnable.cs
+  artifactKey: Guid(2415a15c0c9eea041863fc6c1a434ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/ResponsiveEnable.cs using Guid(2415a15c0c9eea041863fc6c1a434ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84c75ec5e0025a8dea9aa7d01dca62e7') in 0.004216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRSpinner.cs
+  artifactKey: Guid(0b9fa4d99839aa940b36addec78cb92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/SRSpinner.cs using Guid(0b9fa4d99839aa940b36addec78cb92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb822e35502e6bbcc1a921a0022f6fab') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/CircularBuffer.cs
+  artifactKey: Guid(39fd981a95abcb647a9c6ecd52007e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Internal/CircularBuffer.cs using Guid(39fd981a95abcb647a9c6ecd52007e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '579ed2164495926c889bed56a8c70834') in 0.005032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.111628 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Pin/Result.controller
+  artifactKey: Guid(bed23c49fcd255d489e4d56fc45840c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Pin/Result.controller using Guid(bed23c49fcd255d489e4d56fc45840c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ed685f4e54cb873955e6275dc420458') in 0.005208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.ReflectionOptionContainer.cs
+  artifactKey: Guid(3343cb41b53a47568cb627f032f95dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.ReflectionOptionContainer.cs using Guid(3343cb41b53a47568cb627f032f95dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca08b163a0e6c05b623b5ccfd4fbe397') in 0.005530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleEntryView.cs
+  artifactKey: Guid(c214ec24a4baf1a4f828768a9795f241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleEntryView.cs using Guid(c214ec24a4baf1a4f828768a9795f241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '051c948e0b2828bf7e98ae97e44b2473') in 0.006233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs
+  artifactKey: Guid(ba911226d6eee2441ba45b76f81a1d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs using Guid(ba911226d6eee2441ba45b76f81a1d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '938af86a931697b3134d48aa997d0ca4') in 0.005315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DockConsole.prefab
+  artifactKey: Guid(e574103baba252a409527f51a20b3a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DockConsole.prefab using Guid(e574103baba252a409527f51a20b3a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a3ceee4a7d67d96361b5394b12f7e534') in 0.005630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png
+  artifactKey: Guid(72f587d74eb73bb4789dd3f6f10b3600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png using Guid(72f587d74eb73bb4789dd3f6f10b3600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db32405fd88cac4948dfb43eb5b87be6') in 0.023687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Trigger.prefab
+  artifactKey: Guid(3024365d197ebaa4abedb991801f0b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Trigger.prefab using Guid(3024365d197ebaa4abedb991801f0b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c6a68a5a78955976ddfc168b61b2aac') in 0.032771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/EnumControl.cs
+  artifactKey: Guid(3b7f14311f0b3f442b273192dc8ffe4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/EnumControl.cs using Guid(3b7f14311f0b3f442b273192dc8ffe4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc0172a541af24ad8f1b1d0bd2139fea') in 0.005022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007312 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/StringControl.cs
+  artifactKey: Guid(019f81638c7cf1f438569f1ca9def175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/StringControl.cs using Guid(019f81638c7cf1f438569f1ca9def175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7964cbfdf8b4c71037f9f625ace7f71f') in 0.005784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Layout/FlowLayoutGroup.cs
+  artifactKey: Guid(f3a5149e46522d84cb8079537220a929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Layout/FlowLayoutGroup.cs using Guid(f3a5149e46522d84cb8079537220a929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8894088de62672ec5bfcad925146bb0') in 0.005652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinEntryServiceImpl.cs
+  artifactKey: Guid(43bd0242747ae6042a436f1ff85403d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinEntryServiceImpl.cs using Guid(43bd0242747ae6042a436f1ff85403d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c540db64387dd9053fcab5447dfa8b7') in 0.005636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_6.png
+  artifactKey: Guid(2ccea1a2a1be59649956a168449bdb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_6.png using Guid(2ccea1a2a1be59649956a168449bdb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '722a24033ec16d573d3ac8c9afbdcb05') in 0.022447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/ConsoleTabQuickViewControl.cs
+  artifactKey: Guid(b9e7555976318b846887116c61e2ecf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/ConsoleTabQuickViewControl.cs using Guid(b9e7555976318b846887116c61e2ecf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c31ece9f29a04fa91388c6724b655013') in 0.006797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/NumberControl.cs
+  artifactKey: Guid(4a6d9f7214a7c5e4b868bfc520d92799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/NumberControl.cs using Guid(4a6d9f7214a7c5e4b868bfc520d92799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42461d1e2a3fc259617b31ebeb8fbbd0') in 0.005896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Round.psd
+  artifactKey: Guid(54b8502585d246249bd1f7540a8bf2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Round.psd using Guid(54b8502585d246249bd1f7540a8bf2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c00d3024fb25edf917880988c0ff8a55') in 0.016996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/console-25.png
+  artifactKey: Guid(f2c0453342e401d49879e5811e9985b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/console-25.png using Guid(f2c0453342e401d49879e5811e9985b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '616b2e567ad90112622e2f3de53bf49c') in 0.018816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/EnumOption.prefab
+  artifactKey: Guid(4a8c35e6c2782f145a2598c874369a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/EnumOption.prefab using Guid(4a8c35e6c2782f145a2598c874369a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd10f967ff5e7f2cdabb4eeeeebd2bb90') in 0.020680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.007777 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/SRNumberButtonEditor.cs
+  artifactKey: Guid(0d1845f798a1b5a47af337e37e463641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/SRNumberButtonEditor.cs using Guid(0d1845f798a1b5a47af337e37e463641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c146141cb1292a00d5346d17c1bcba1f') in 0.007822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_20.png
+  artifactKey: Guid(8b93e13a01362424a89df66b813b3403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_20.png using Guid(8b93e13a01362424a89df66b813b3403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8ba12a41131701fe1b4dbcc04deb81c') in 0.019680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportSheet.prefab
+  artifactKey: Guid(307fd4bc23452cc41bdacc036bc9e0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportSheet.prefab using Guid(307fd4bc23452cc41bdacc036bc9e0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84079348e501f0fa6049a49639c35c05') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SRTabController.cs
+  artifactKey: Guid(035be48566f8a3a4285521c6480d83ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SRTabController.cs using Guid(035be48566f8a3a4285521c6480d83ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47ba0468cd0d5f445ee7992b1e9f5315') in 0.006773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinEntry.prefab
+  artifactKey: Guid(3234e6770548fe841adb652f4ad4bca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinEntry.prefab using Guid(3234e6770548fe841adb652f4ad4bca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c744de6c6a9adb6607ce2fda58b949a') in 0.029911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 377
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_17.png
+  artifactKey: Guid(9662640d4260c9a4d926c7de03e6609e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_17.png using Guid(9662640d4260c9a4d926c7de03e6609e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98e8b8806163e348beeec2c7c6f03a4d') in 0.020554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/SideBar/ConsoleTabButtonContent.prefab
+  artifactKey: Guid(38622dccbe5c7c84782cd2c695aa3521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/SideBar/ConsoleTabButtonContent.prefab using Guid(38622dccbe5c7c84782cd2c695aa3521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4418443ac279e893f14dabd22674d0d') in 0.015412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Tabs/InfoTabController.cs
+  artifactKey: Guid(5b6cf74d4a6343648bbe857301cf1bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Tabs/InfoTabController.cs using Guid(5b6cf74d4a6343648bbe857301cf1bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c2d7f9d5b73d79c8c7aa4d721aecdb9') in 0.006738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_21.png
+  artifactKey: Guid(a8d613b67f373cd4285c6d5b0a7f163c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_21.png using Guid(a8d613b67f373cd4285c6d5b0a7f163c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5569ba2e4664ed117c1c805bdab485b1') in 0.016521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/AlertIcon.PSD
+  artifactKey: Guid(fa4a3dea13d28344a8bcc77a1a7e2fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/AlertIcon.PSD using Guid(fa4a3dea13d28344a8bcc77a1a7e2fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8936c2f45edf9a3a4ef9f5ca21670759') in 0.015863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/LoadingSpinnerBehaviour.cs
+  artifactKey: Guid(44d058d954e809c4fa87cfab328237d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/LoadingSpinnerBehaviour.cs using Guid(44d058d954e809c4fa87cfab328237d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89940c2a3f5de1829b4e391fd74d7947') in 0.004092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/CopyLayoutElementEditor.cs
+  artifactKey: Guid(44df26ca5be5b5c468b5090cbe3df8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/CopyLayoutElementEditor.cs using Guid(44df26ca5be5b5c468b5090cbe3df8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cfb262cb3a830f51f7640377db27106') in 0.005536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Console.prefab
+  artifactKey: Guid(abd74791d32aafa4c9ca4f20145cd14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Console.prefab using Guid(abd74791d32aafa4c9ca4f20145cd14c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f44e0f1364abba9b225de195400c7a0') in 0.022265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 289
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_10.png
+  artifactKey: Guid(2fd39c3920ff82048ad7b8aac693d224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_10.png using Guid(2fd39c3920ff82048ad7b8aac693d224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '161a6d3cf0e117b5b3dcbd7d00cc405d') in 0.019486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Options.prefab
+  artifactKey: Guid(f38fe2ab9831b6c4c9c90aef8dabcb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Options.prefab using Guid(f38fe2ab9831b6c4c9c90aef8dabcb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73c3abfa73cd4de982de127f12d08737') in 0.015386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/StyleSheetEditor.cs
+  artifactKey: Guid(7cc490d54f84d704f90e31d72e293018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Editor/StyleSheetEditor.cs using Guid(7cc490d54f84d704f90e31d72e293018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '887e7a3a9a7f575b737018518528a901') in 0.005156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SetLayerFromSettings.cs
+  artifactKey: Guid(40436e7c301de034f916ee1e7ddabeeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SetLayerFromSettings.cs using Guid(40436e7c301de034f916ee1e7ddabeeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '03f2503c48073d08e2c9254aa55418e0') in 0.004353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportPopoverService.cs
+  artifactKey: Guid(80565ccf143b6fc40aafeb9c7d23aeef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportPopoverService.cs using Guid(80565ccf143b6fc40aafeb9c7d23aeef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6d5eeffa8456861cd25b29a7cf4dd9e1') in 0.006380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/IEnableTab.cs
+  artifactKey: Guid(a0522b3ec2155a4468bea956e3ea2fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/IEnableTab.cs using Guid(a0522b3ec2155a4468bea956e3ea2fd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77ee0a1218fc2996b40a4ae71f8261e1') in 0.004920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinnedUI.prefab
+  artifactKey: Guid(bb4f9efb6ebc3b84cae1ddbccbd53c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinnedUI.prefab using Guid(bb4f9efb6ebc3b84cae1ddbccbd53c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07b4dd0381b603b73e244026c4832009') in 0.029492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 418
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/RoundButton_3.psd
+  artifactKey: Guid(ca27eb96a4f0c4145a479ad3e29790a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/RoundButton_3.psd using Guid(ca27eb96a4f0c4145a479ad3e29790a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f1d531ceca18b8a29ee1ddd8a61a88e') in 0.017088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/RoundButton_4.psd
+  artifactKey: Guid(3967d34dc919aa04cac871bbf2ebce4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/RoundButton_4.psd using Guid(3967d34dc919aa04cac871bbf2ebce4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2fec661dcf526013ee925c216ac08d2c') in 0.017808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/ConfigureCanvasFromSettings.cs
+  artifactKey: Guid(f0ad3d8afa9fd64429a249b5bbb19557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/ConfigureCanvasFromSettings.cs using Guid(f0ad3d8afa9fd64429a249b5bbb19557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dece06a0038ff787329462fcf09792d6') in 0.004895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportApiService.cs
+  artifactKey: Guid(0f0a70f9ea64595459ec202791f9954a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportApiService.cs using Guid(0f0a70f9ea64595459ec202791f9954a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4a836cef815ab78bcdf139c0b7f9801d') in 0.005622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/profiler-25.png
+  artifactKey: Guid(1e056ec0ed417e84f8129ebc5d3a5631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/profiler-25.png using Guid(1e056ec0ed417e84f8129ebc5d3a5631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be4723fae9db9acc6eef87a90b550c0c') in 0.016956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/options-25.png
+  artifactKey: Guid(0a0159476f63b134fbf8474a85bac7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Editor/Icons/Light/options-25.png using Guid(0a0159476f63b134fbf8474a85bac7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e5de9c3ff8e1dc476ac68b0fc996d064') in 0.014130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Layout/VirtualVerticalLayoutGroup.cs
+  artifactKey: Guid(19c408e3f064e184fa5e0d9862ac4d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRF/Scripts/UI/Layout/VirtualVerticalLayoutGroup.cs using Guid(19c408e3f064e184fa5e0d9862ac4d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '62b1f2a021ef42b236ea77cf09a8d953') in 0.005148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_9.png
+  artifactKey: Guid(a123c1c6f56057e4e9a11e2dcaf2df94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_9.png using Guid(a123c1c6f56057e4e9a11e2dcaf2df94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e83a4c6e10a0df0015629a40ce3e3231') in 0.018761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Trigger/Hidden.anim
+  artifactKey: Guid(e11d486ec67959544b6425209045f6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Animations/UI/Trigger/Hidden.anim using Guid(e11d486ec67959544b6425209045f6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '602d133931b3a9af0a37dd605d0a4a24') in 0.006015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/SRTabButton.cs
+  artifactKey: Guid(d2e81b40d04e8e440bb9659057db98c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Controls/SRTabButton.cs using Guid(d2e81b40d04e8e440bb9659057db98c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fe48966d418bd324ad3876104a59ffe') in 0.004834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SRTab.cs
+  artifactKey: Guid(94b1f24ed4379dd4fab14add56e520a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/SRTab.cs using Guid(94b1f24ed4379dd4fab14add56e520a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dd14aa0180095f484729f5da1cc0262') in 0.003874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Tabs/OptionsTabController.cs
+  artifactKey: Guid(977db337f5942e64aa7b62fc1ca01e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Tabs/OptionsTabController.cs using Guid(977db337f5942e64aa7b62fc1ca01e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d1521bc698faaefaa7ac74973f8cc66') in 0.007411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ActionOption.prefab
+  artifactKey: Guid(308ca70361d90ed40bcc5c69d973f7ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ActionOption.prefab using Guid(308ca70361d90ed40bcc5c69d973f7ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1214b0a421f065fe79ce76ff0389b30f') in 0.032849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_7.png
+  artifactKey: Guid(b5b46026463fb334bb8a3b95b303b224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_7.png using Guid(b5b46026463fb334bb8a3b95b303b224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96dbc656c098fee8f1f238e62a273822') in 0.018798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_4.png
+  artifactKey: Guid(3422278a31f39bc4cab9304b78a09d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_4.png using Guid(3422278a31f39bc4cab9304b78a09d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '56e51db93fc7d86a1e3acc1028550e8f') in 0.017889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_16.png
+  artifactKey: Guid(d74ece6f102dfaa47aa02f6af42f0073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/SRIcon_16.png using Guid(d74ece6f102dfaa47aa02f6af42f0073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9fdddb63a662793020b9ba3f78e66425') in 0.018494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DebugPanel.prefab
+  artifactKey: Guid(3484bf178624a77488fdf8a593f2d7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DebugPanel.prefab using Guid(3484bf178624a77488fdf8a593f2d7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e378e35e5107265852174687b4cbb496') in 0.016046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/SR.psd
+  artifactKey: Guid(239112d3dd3ec2243ad5b895480716a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/SR.psd using Guid(239112d3dd3ec2243ad5b895480716a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ecaf6d807341893b25f46956f10bbf1c') in 0.017811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugCameraServiceImpl.cs
+  artifactKey: Guid(07b63666d1ce0074a8e9be3dae9d39a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugCameraServiceImpl.cs using Guid(07b63666d1ce0074a8e9be3dae9d39a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a75ebbc0e6f8b71a7871eb897166317') in 0.005166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportPopover.prefab
+  artifactKey: Guid(b1e14a36132e86c4a86149b6ecbe53f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportPopover.prefab using Guid(b1e14a36132e86c4a86149b6ecbe53f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0d2448d4fd37ebd3e092829969e7dff') in 0.020244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ReadOnlyOption.prefab
+  artifactKey: Guid(879b44b39edb0fc46897c1a117413e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ReadOnlyOption.prefab using Guid(879b44b39edb0fc46897c1a117413e5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f5ac4f314bd01825bfa75a70849de3de') in 0.014404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/System.prefab
+  artifactKey: Guid(b375b5741c9234f4c8e08b2f4c81e15d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/System.prefab using Guid(b375b5741c9234f4c8e08b2f4c81e15d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61707e2fa8cb4ac0062f7ed30d830fd5') in 0.023458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/HandleManager.cs
+  artifactKey: Guid(4292e93ad30fda64b96c60d4d68b3c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/HandleManager.cs using Guid(4292e93ad30fda64b96c60d4d68b3c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7323c599acb5f44375281085f75912ee') in 0.003903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/Console/Item.prefab
+  artifactKey: Guid(408ed745743f47f46ac11b71f96cf1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Prefabs/Console/Item.prefab using Guid(408ed745743f47f46ac11b71f96cf1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da1eea91588098cea3a6bf1ccbc548d2') in 0.014073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleRoot.cs
+  artifactKey: Guid(e502669a31931b74ea762540a783f1ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleRoot.cs using Guid(e502669a31931b74ea762540a783f1ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6760c2f3a6623d05522b619ba699a894') in 0.004958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Button_4.psd
+  artifactKey: Guid(a0c7ffb7676bd694192d1a9b3f8d20bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/UI/Sprites/Default/Button_4.psd using Guid(a0c7ffb7676bd694192d1a9b3f8d20bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be978f953c9e5541728cbfc9930e6ddb') in 0.016914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/BugReporter.prefab
+  artifactKey: Guid(c3059d02b0eb1694bb1ed7bf533a17c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ThirdPartUtil/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/BugReporter.prefab using Guid(c3059d02b0eb1694bb1ed7bf533a17c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '979b2687116045395521fc4f207b74f1') in 0.023248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 87.353009 seconds.
+  path: Assets/Scripts/System/RedDot/RedDotManager.cs
+  artifactKey: Guid(ce2d5d22488cfab4aaeb664151c92a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System/RedDot/RedDotManager.cs using Guid(ce2d5d22488cfab4aaeb664151c92a14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '265b78a98ef9d244d4c88a5dfa06789b') in 0.009978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.063774 seconds.
+  path: Assets/Scripts/System/Core
+  artifactKey: Guid(564ee22bf638e7a49a9c680f20da7011) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System/Core using Guid(564ee22bf638e7a49a9c680f20da7011) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '321cee9ed8d12c0d2d989a66e9240d1b') in 0.004186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029868 seconds.
+  path: Assets/Scripts/System/Coroutine/CoroutineManager.cs
+  artifactKey: Guid(9ccec1cec67e13340b07e2bb57d3e481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System/Coroutine/CoroutineManager.cs using Guid(9ccec1cec67e13340b07e2bb57d3e481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c37a9bd98e9caafd6b4770580302cab') in 0.005660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/System/Coroutine
+  artifactKey: Guid(3da1dbd5a90300f499963b6ac98036ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System/Coroutine using Guid(3da1dbd5a90300f499963b6ac98036ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d8761a7fc1417cb425d7a7a02394e3f') in 0.003630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/System/RedDot/RedDotNode.cs
+  artifactKey: Guid(d94e4902e962ba545ac63fc1591d32dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System/RedDot/RedDotNode.cs using Guid(d94e4902e962ba545ac63fc1591d32dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '251f87eeac1f1b85c95a7a5d7f2bf9c9') in 0.005259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/System
+  artifactKey: Guid(3aa2e477316793f43be448bd8b8126e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/System using Guid(3aa2e477316793f43be448bd8b8126e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f39bc70fa1f35cf951e8fa638401ca51') in 0.003152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

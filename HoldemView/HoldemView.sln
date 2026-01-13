@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Editor", "StompyRobot.SRDebugger.Editor.csproj", "{B8DF5590-3D55-D408-2E2E-C948D38C7D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF", "StompyRobot.SRF.csproj", "{23B1ED3F-50E4-D90A-5087-98C278FF5213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger", "StompyRobot.SRDebugger.csproj", "{DB62CF0A-E800-EF67-45E6-582BA60D0F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2C062D8F-1045-F0F9-A25C-AC603F3BCC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF.Editor", "StompyRobot.SRF.Editor.csproj", "{ACD694E5-2098-64A4-6865-45F708067D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SROptions", "SROptions.csproj", "{722C6055-1C75-AA9A-F338-09543B254EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8DF5590-3D55-D408-2E2E-C948D38C7D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DF5590-3D55-D408-2E2E-C948D38C7D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DF5590-3D55-D408-2E2E-C948D38C7D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DF5590-3D55-D408-2E2E-C948D38C7D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B1ED3F-50E4-D90A-5087-98C278FF5213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B1ED3F-50E4-D90A-5087-98C278FF5213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B1ED3F-50E4-D90A-5087-98C278FF5213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B1ED3F-50E4-D90A-5087-98C278FF5213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB62CF0A-E800-EF67-45E6-582BA60D0F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB62CF0A-E800-EF67-45E6-582BA60D0F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB62CF0A-E800-EF67-45E6-582BA60D0F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB62CF0A-E800-EF67-45E6-582BA60D0F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C062D8F-1045-F0F9-A25C-AC603F3BCC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C062D8F-1045-F0F9-A25C-AC603F3BCC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C062D8F-1045-F0F9-A25C-AC603F3BCC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C062D8F-1045-F0F9-A25C-AC603F3BCC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD694E5-2098-64A4-6865-45F708067D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD694E5-2098-64A4-6865-45F708067D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD694E5-2098-64A4-6865-45F708067D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD694E5-2098-64A4-6865-45F708067D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722C6055-1C75-AA9A-F338-09543B254EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722C6055-1C75-AA9A-F338-09543B254EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722C6055-1C75-AA9A-F338-09543B254EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722C6055-1C75-AA9A-F338-09543B254EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
