@@ -1,0 +1,12 @@
+HoldemView/Library/
+HoldemView/Temp/
+HoldemView/obj/
+HoldemView/Obj/
+HoldemView/Log/
+HoldemView/Logs/
+HoldemView/*.csproj
+HoldemView/*.sln
+HoldemView/.vs/
+HoldemView/.vscode/settings.json
+Build/
+.vs/
